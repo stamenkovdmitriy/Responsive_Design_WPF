@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\close_512.png" />
+    <None Remove="Resources\Image\123312321.png" />
+    <None Remove="Resources\Image\close_5123.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Image\123312321.png" />
+    <Resource Include="Resources\Image\close_512.png" />
+    <Resource Include="Resources\Image\close_5123.png" />
+  </ItemGroup>
+
+</Project>
